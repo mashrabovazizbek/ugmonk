@@ -1,0 +1,363 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: roboto;
+    box-sizing: border-box;
+}
+
+header {
+    width: 90%;
+    margin: auto;
+    background-image: url(./img/Rectangle.png);
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 730px; */
+    /* background-position: 70%; */
+    width: 100%;
+        padding-bottom: 50px;
+        background-attachment: fixed;
+        background-position: center;
+}
+
+.katta_nav {
+    max-width: 100%;
+    margin: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+
+header nav {
+    /* width: 100%; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#rasm1 img {
+    margin-right: 20px;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+nav ul li {
+    flex-wrap: wrap;
+    align-items: center;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.korzinka ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.korzinka ul li {
+    flex-wrap: wrap;
+    border-right: 3px solid black;
+    height: 30px;
+    padding: 6px;
+
+}
+
+header nav ul li a {
+    color: #2A2A2A;
+    flex-wrap: wrap;
+}
+
+header .header_text {
+    width: 90%;
+    margin: auto;
+    color: black;
+    padding-top: 640px;
+}
+
+main {
+    max-width: 90%;
+    margin: auto;
+}
+
+.main_ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.main_ul ul li a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.main_ul ul li {
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+
+.ota_rasm {
+    max-width: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px 10px;
+    justify-content: center;
+}
+
+.bola_rasm {
+    width: 100%;
+    border: 2px solid red;
+    height: auto;
+
+
+}
+
+.bola_rasm img {
+    width: 100%;
+}
+
+.bola_rasm h2 {
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.bola_rasm p {
+    width: 100%;
+
+}
+
+
+.ota_rasm .btn button {
+    margin: auto;
+    width: 180px;
+    height: 50px;
+    display: block;
+
+}
+
+
+/* .blok_rasm {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 25px;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.blok_rasm img {
+    width: 100%;
+} */
+
+
+section {
+
+    /* max-width: 100%; */
+    /* margin: auto; */
+    background-image: url(./img/Rectangle\ \(1\).png);
+    /* height: auto; */
+    padding-top: 580px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-attachment: fixed; */
+    height: 730px;
+    background-position: 70%;
+    position: relative;
+}
+
+section .text {
+    position: absolute;
+    left: 90px;
+}
+
+.k_rasm img {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+article {
+    background-color: #312F2E;
+    width: 100%;
+
+}
+
+.katta_art {
+    width: 100%;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 90%;
+
+
+}
+
+.menu_1 {
+    border: 2px solid red;
+    background-color: #F7F7F7;
+    height: 450px;
+    width: 610px;
+}
+
+
+.menu_2 img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.sectiion {
+    width: 90%;
+    margin: auto;
+}
+
+.katta_mm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rasm01 img {
+    width: 100%;
+}
+
+.rasm02 img {
+    width: 100%;
+
+}
+
+.sec_katta_rasm {
+    width: 100%;
+    margin: auto;
+
+}
+
+.sec_katta_rasm img {
+    width: 100%;
+}
+
+.gio_pika {
+    background: url(./img/Rectangle\ \(4\).png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+
+}
+
+.gio_text {
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+}
+
+.bck_color {
+    width: 100%;
+    margin: auto;
+    background-color: #CED3CA;
+    height: 400px;
+
+}
+
+.bck_text {
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+
+.puts {
+
+    display: flex;
+    justify-content: center;
+}
+
+#sml {
+    width: 35px;
+}
+
+footer {
+    width: 100%;
+    background-color: #F7F7F7;
+    background-color: green;
+    height: 500px;
+
+
+}
+
+.father_foot {
+    width: 90%;
+    margin: auto;
+
+}
+
+.boys {
+    border: 2px solid red;
+    width: 250px;
+}
+
+.father_foot {
+    display: flex;
+    justify-content:  space-evenly;
+}
+.uu{
+    display: flex;
+}
+
+@media screen and (max-width:800px) {
+    .ota_rasm {
+        grid-template-columns: auto auto auto;
+    }
+
+    .menu_1 {
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width:600px) {
+    .ota_rasm {
+        grid-template-columns: auto auto;
+    }
+
+    .menu_2 img {
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .ota_rasm {
+        grid-template-columns: auto;
+    }
+
+}
